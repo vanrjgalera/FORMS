@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Example Form</title>
+    <style>
+        body{
+            background-image: linear-gradient(to bottom, #90EE90, #32CD32), linear-gradient(to bottom, #FFA07A, #FF4500);
+            background-repeat: no-repeat;
+            background-position: top left, bottom right;
+            color: #fff;
+        }
+        form {
+            background-image: linear-gradient(to bottom, #4B0082, #191970), linear-gradient(to bottom, #FFA07A, #FF4500);
+            background-repeat: no-repeat;
+            background-position: top left, bottom right;
+            padding: 20px;
+        }
+    
+    </style>    
+</head>
+<body>
+	<form>
+		<fieldset>
+			<legend>Personal Information</legend>
+			<label for="name">Name:</label>
+			<input type="text" id="name" name="name"><br><br>
+
+			<label for="email">Email:</label>
+			<input type="email" id="email" name="email"><br><br>
+
+			<label for="gender">Gender:</label>
+			<select id="gender" name="gender">
+				<option value="male">Male</option>
+				<option value="female">Female</option>
+				<option value="other">Other</option>
+			</select><br><br>
+
+			<label for="dob">Date of Birth:</label>
+			<input type="date" id="dob" name="dob"><br><br>
+
+			<label for="about">Tell us about yourself:</label>
+			<textarea id="about" name="about"></textarea><br><br>
+
+			<label for="picture">Upload your picture:</label>
+			<input type="file" id="picture" name="picture"><br><br>
+		</fieldset>
+
+		<button type="submit">Submit</button>
+	</form>
+</body>
+</html>
